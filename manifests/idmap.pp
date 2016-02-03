@@ -90,7 +90,7 @@ class nfs::idmap (
           $default_idmap_package = 'nfs-utils-lib'
         }
         '7': {
-          $default_idmap_service = 'nfs-idmap'
+          $default_idmap_service = 'nfs-idmapd'
           $default_idmap_package = 'libnfsidmap'
         }
         default: {
